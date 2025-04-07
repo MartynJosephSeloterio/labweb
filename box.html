@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Front-End Design</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #e9e0e0;
+        }
+        header {
+            background: #1a91e0; 
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background: #FFD700; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #6A0DAD; 
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #4B0082; 
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        .flex-item {
+            background: rgb(67, 78, 67);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(235, 234, 234, 0.1);
+            padding: 20px;
+            flex: 1;
+            min-width: 300px;
+            max-width: 400px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            color: rgb(241, 238, 238); 
+            
+        }
+        .flex-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(185, 26, 26, 0.2);
+        }
+        .flex-item h2, .flex-item h3 {
+            color: rgb(230, 230, 230); 
+            margin-bottom: 15px;
+        }
+        footer {
+            background: #469fd3; 
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 0;
+        }
+        a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SDG AND CLEAN WATER SANITATION</h1>
+        <p>"Explore the concept of voluntary labor, highlighting its impact on communities, personal fulfillment, and the challenges faced by those who contribute without monetary compensation."</p>
+    </header>
+    
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <div class="flex-container">
+            <section id="about" class="flex-item">
+                <h2>About Us</h2>
+                <p>We are a forward-thinking company focused on providing innovative solutions for clean water and sanitation. Our mission is to make a positive impact on communities worldwide.</p>
+            </section>
+
+            <section id="news" class="flex-item">
+                <h2>Latest News</h2>
+                <p>The UN Environment Programme recently released the "Sustainable Development Goal 6 Synthesis Report on Water and Sanitation 2023". This comprehensive analysis provides key findings and tracks global progress on the implementation of integrated water resources management and SDG 6.</p>
+            </section>
+
+            <aside id="links" class="flex-item">
+                <h2>Related Links</h2>
+                <ul>
+                    <li><a href="https://www.wvi.org/sites/default/files/2022-03/D200-0913-105.jpg" target="_blank">Black African we supported</a></li>
+                    <li><a href="https://images.nationalgeographic.org/image/upload/v1638892143/EducationHub/photos/clean-water-and-sanitation-a-global-report-card.jpg" target="_blank">Latest Update on clean water and sanitation</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=YTIPokrtNQ0" target="_blank">Watch Related YouTube Video</a></li>
+                </ul>
+            </aside>
+
+            <section id="services" class="flex-item">
+                <h2>Our Services</h2>
+                <p>We specialize in providing comprehensive water purification systems, advanced sanitation infrastructure, and community education programs aimed at improving hygiene and health. Our initiatives focus on ensuring access to clean, safe drinking water while promoting sustainable sanitation solutions that reduce the spread of disease. Additionally, we offer educational programs to empower communities with the knowledge and skills necessary to maintain good hygiene practices and improve overall well-being. By addressing both the technical and educational aspects of public health, we work to create lasting positive impacts on the health and quality of life for communities in need.</p>
+            </section>
+
+            <section id="team" class="flex-item">
+                <h2>Our Team</h2>
+                <p></p>
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <h3>Jalen Ross vidallo</h3>
+                        <p>CEO & Founder</p>
+                    </div>
+                    <div class="flex-item">
+                        <h3>Martyn joseph seloterio</h3>
+                        <p>Head of Operations</p>
+                    </div>
+                    <div class="flex-item">
+                        <h3>Shawn Cassidy Garcia</h3>
+                        <p>Lead Engineer</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="flex-item">
+                <h2>Contact Us</h2>
+                <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                <p>Phone: +69123082341</p>
+                <p>Address: 123 Clean Water Street, Sustainability City</p>
+                <p>Business Hours: Monday – Friday, 9:00 AM – 5:00 PM (local time)</p>
+                <p>Facebook: <a href="https://www.facebook.com/SanitationAndWaterforAll/" target="_blank">@Sanitation and Water for All</a></p>
+                <p>Instagram: <a href="https://www.instagram.com/water.for.all.international/" target="_blank">@water.for.all.international</a></p>
+                <p>twitter: <a href="https://www.instagram.com/water.for.all.international/" target="_blank">@WaterForAll</a></p>
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Seloterio Group of Company.</p>
+    </footer>
+</body>
+</html>
